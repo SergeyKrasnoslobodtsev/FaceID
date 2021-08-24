@@ -1,0 +1,10 @@
+C:\tools\FaceID\FaceID.Mvvm\bin\Debug\netcoreapp3.1\FaceID.Mvvm.deps.json
+C:\tools\FaceID\FaceID.Mvvm\bin\Debug\netcoreapp3.1\FaceID.Mvvm.dll
+C:\tools\FaceID\FaceID.Mvvm\bin\Debug\netcoreapp3.1\FaceID.Mvvm.pdb
+C:\tools\FaceID\FaceID.Mvvm\obj\Debug\netcoreapp3.1\FaceID.Mvvm.csproj.AssemblyReference.cache
+C:\tools\FaceID\FaceID.Mvvm\obj\Debug\netcoreapp3.1\FaceID.Mvvm.GeneratedMSBuildEditorConfig.editorconfig
+C:\tools\FaceID\FaceID.Mvvm\obj\Debug\netcoreapp3.1\FaceID.Mvvm.AssemblyInfoInputs.cache
+C:\tools\FaceID\FaceID.Mvvm\obj\Debug\netcoreapp3.1\FaceID.Mvvm.AssemblyInfo.cs
+C:\tools\FaceID\FaceID.Mvvm\obj\Debug\netcoreapp3.1\FaceID.Mvvm.csproj.CoreCompileInputs.cache
+C:\tools\FaceID\FaceID.Mvvm\obj\Debug\netcoreapp3.1\FaceID.Mvvm.dll
+C:\tools\FaceID\FaceID.Mvvm\obj\Debug\netcoreapp3.1\FaceID.Mvvm.pdb

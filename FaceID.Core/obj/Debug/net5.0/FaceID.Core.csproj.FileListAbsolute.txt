@@ -1,0 +1,12 @@
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\bin\Debug\net5.0\FaceID.Core.deps.json
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\bin\Debug\net5.0\FaceID.Core.dll
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\bin\Debug\net5.0\ref\FaceID.Core.dll
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\bin\Debug\net5.0\FaceID.Core.pdb
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\obj\Debug\net5.0\FaceID.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\obj\Debug\net5.0\FaceID.Core.AssemblyInfoInputs.cache
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\obj\Debug\net5.0\FaceID.Core.AssemblyInfo.cs
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\obj\Debug\net5.0\FaceID.Core.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\obj\Debug\net5.0\FaceID.Core.dll
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\obj\Debug\net5.0\ref\FaceID.Core.dll
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\obj\Debug\net5.0\FaceID.Core.pdb
+C:\Users\Администратор\source\repos\FaceID\FaceID.Core\obj\Debug\net5.0\FaceID.Core.csproj.AssemblyReference.cache
