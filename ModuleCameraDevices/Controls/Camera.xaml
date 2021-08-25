@@ -29,7 +29,7 @@
             VerticalAlignment="Center"
             BorderBrush="Black"
             BorderThickness="2">
-            <Image x:Name="webcamPreview" Grid.Row="0" />
+            <Image x:Name="webcamPreview" Grid.Row="0" Stretch="Fill" />
         </Border>
     </Grid>
 </UserControl>

@@ -1,15 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "1KvQc6sRxp78kogSnOq0YBrHsgJaaHlu4Iieh3ZwZHwGi+5oNJHh0vxOldwzRUeYRIMmbDXy/zAwCxB8/1yKEw==",
+  "dgSpecHash": "gweAlvOcaMHvwLP6YzBZb6WNpAaTSC7H2dZB8zxTaL0BHRSM7z5MFVQGbH7uoBvp6a9diVq9TvyVoxVTUpvI+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj",
+  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\opencvsharp4\\4.5.3.20210817\\opencvsharp4.4.5.3.20210817.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\opencvsharp4.runtime.win\\4.5.3.20210817\\opencvsharp4.runtime.win.4.5.3.20210817.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\opencvsharp4.windows\\4.5.3.20210817\\opencvsharp4.windows.4.5.3.20210817.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\opencvsharp4.wpfextensions\\4.5.3.20210817\\opencvsharp4.wpfextensions.4.5.3.20210817.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",
-    "C:\\Users\\Администратор\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
+    "C:\\Users\\Администратор\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

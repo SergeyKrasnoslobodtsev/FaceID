@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VtnILwOqxM0a10fCTHMseUcbvIOphb9XmbfLHRohGakpAY0ROA0mNIcyCDSSe9roJLqX5vekUrY7e+rgKmndMA==",
+  "dgSpecHash": "4REEg8249aJR/pe2N0IHReMKLdPT1lGWDXiwgIE65NuGysklyetz3VPYjf0MrWOAa2yyhNRvMr9hD6NEhN1Fkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Recognizer\\FaceID.Recognizer.csproj",
+  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Recognizer\\FaceID.Recognizer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Администратор\\.nuget\\packages\\dlibdotnet.cuda110\\19.21.0.20210302\\dlibdotnet.cuda110.19.21.0.20210302.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",

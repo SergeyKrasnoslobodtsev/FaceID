@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SpF2thy8LjAv5S6Bz3XNNwrUmDt/u0ORZS36jFRqJnEAXjNMl2czCZ35/FA8pEwbw5RIuKXewIafz/MRu80Viw==",
+  "dgSpecHash": "ScH3KJBqO29YtZa61/oqLM4+4UE9LL306mRakihR90+fzbPHmfpB5/mQU50uXBWfZkpuPBGAl9olwQrKcO4jPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj",
+  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

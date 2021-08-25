@@ -1,4 +1,4 @@
-﻿using FaceID.Recognizer;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace FaceID.Core.Interfaces
 {
     public interface IDetectorFaceService
     {
-        public Task<IEnumerable<Location>> GetLocation(string frameBase64);
+        
     }
 }

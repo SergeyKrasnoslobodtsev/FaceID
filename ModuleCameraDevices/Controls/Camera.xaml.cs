@@ -11,14 +11,16 @@ namespace ModuleCameraDevices.Controls
     {
         private CameraStreaming _webcamStreaming;
         private string _connection;
-        int _width, _height;
+        int _width, _height, _containerWidth, _containerHeight;
         public Image GetImage { get; set; }
-        public Camera(string connection, int width = 640, int height = 480)
+        public Camera(string connection, int containerWidth = 320, int containerHeight = 240, int width = 640, int height = 480)
         {
             InitializeComponent();
             _connection = connection;
             _width = width;
             _height = height;
+            _containerWidth = containerWidth;
+            _containerHeight = containerHeight;
             OnStart();
         }
 
@@ -26,8 +28,8 @@ namespace ModuleCameraDevices.Controls
         {
             cameraLoading.Visibility = Visibility.Visible;
             webcamContainer.Visibility = Visibility.Collapsed;
-            webcamContainer.Width = _width;
-            webcamContainer.Height = _height;
+            webcamContainer.Width = _containerWidth;
+            webcamContainer.Height = _containerHeight;
             if (_webcamStreaming == null)
             {
                 _webcamStreaming?.Dispose();

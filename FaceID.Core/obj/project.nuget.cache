@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1z/Xte05Y7Y+riMLIwWwmtKwJMi0h3OIJThUDxlyPwVZb5UWDu0WjtnDzItOTFhrRl0Hs0chm0VmE+Dq5l1WQQ==",
+  "dgSpecHash": "62bH1mqA//zgqHCcGpGmYOR97hoLPc7V2kXeYoOw4oTTBX2nXgEQ6Wsf2TKo2CcpP1S8OnDQXlWVCfpkihr2pA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Core\\FaceID.Core.csproj",
+  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Core\\FaceID.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Администратор\\.nuget\\packages\\dlibdotnet.cuda110\\19.21.0.20210302\\dlibdotnet.cuda110.19.21.0.20210302.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",

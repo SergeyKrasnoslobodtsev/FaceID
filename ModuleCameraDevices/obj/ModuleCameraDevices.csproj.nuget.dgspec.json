@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj": {}
+    "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj": {
+    "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj",
         "projectName": "FaceID.Mvvm",
-        "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj",
+        "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Mvvm\\obj\\",
+        "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Mvvm\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -62,21 +58,17 @@
         }
       }
     },
-    "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj": {
+    "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj",
         "projectName": "ModuleCameraDevices",
-        "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj",
+        "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\ModuleCameraDevices\\ModuleCameraDevices.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\ModuleCameraDevices\\obj\\",
+        "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\ModuleCameraDevices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,14 +76,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj": {
-                "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj"
+              "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Mvvm\\FaceID.Mvvm.csproj"
               }
             }
           }
@@ -106,6 +98,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "OpenCvSharp4.Windows": {
+              "target": "Package",
+              "version": "[4.5.3.20210817, )"
+            },
+            "OpenCvSharp4.WpfExtensions": {
+              "target": "Package",
+              "version": "[4.5.3.20210817, )"
+            },
             "Prism.Wpf": {
               "target": "Package",
               "version": "[8.1.97, )"

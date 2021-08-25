@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Администратор\Documents\GitHub\ApiFaceID\FaceID.Client\obj\Debug\netcoreapp3.1\
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Client\obj\Debug\netcoreapp3.1\
 FaceID.Client
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\Администратор\Documents\GitHub\ApiFaceID\FaceID.Client\App.xaml
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Client\App.xaml
 2-840686475
 
 9387290971
-289-1442271184
+292-1461912888
 MainWindow.xaml;Views\Main.xaml;
 
 False

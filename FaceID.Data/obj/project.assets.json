@@ -1572,7 +1572,7 @@
       },
       "FaceID.Recognizer/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "DlibDotNet.CUDA110": "19.21.0.20210302"
         },
@@ -5902,24 +5902,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Администратор\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Администратор\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Data\\FaceID.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Data\\FaceID.Data.csproj",
       "projectName": "FaceID.Data",
-      "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Data\\FaceID.Data.csproj",
+      "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Data\\FaceID.Data.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Data\\obj\\",
+      "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Data\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5927,14 +5922,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Core\\FaceID.Core.csproj": {
-              "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Core\\FaceID.Core.csproj"
+            "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Core\\FaceID.Core.csproj": {
+              "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Core\\FaceID.Core.csproj"
             }
           }
         }

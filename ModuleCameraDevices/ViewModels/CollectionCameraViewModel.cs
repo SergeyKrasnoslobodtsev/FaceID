@@ -20,12 +20,11 @@ namespace ModuleCameraDevices.ViewModels
             get { return _connection; }
             set { SetProperty(ref _connection, value); }
         }
-        ObservableCollection<Camera> _device;
-        public ObservableCollection<Camera> GetDevices
+        public ObservableCollection<Camera> GetDevices => new ObservableCollection<Camera>()
         {
-            get { return _device; }
-            set { SetProperty(ref _device, value); }
-        }
+           // new Camera("rtsp://admin:123456@643107a3a691.sn.mynetname.net:554", 854, 480, 1280, 720)),
+            new Camera(@"C:\video_2.avi", 640, 360, 1280, 720)//1920, 1080   2304, 1296   1280, 720
+        };
 
         private bool _IsWaitCamera;
         public bool IsWaitCamera
@@ -38,9 +37,6 @@ namespace ModuleCameraDevices.ViewModels
         public CollectionCameraViewModel()
         {
             Message = "View Devices from your Prism Module";
-            GetDevices = new ObservableCollection<Camera>();
-            camera = new Camera(@"E:\1.avi");
-            GetDevices.Add(camera);
         }
     }
 }

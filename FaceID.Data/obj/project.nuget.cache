@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YhDcON9KFIh2J5dHrm8YOYh4YtaRz+VOQyx/AaW64FHSaj0pbhTWxNHFJuFbod/l3LKX2zn2v44pfe7oa9ZSIQ==",
+  "dgSpecHash": "oykLOWJhTNYX5M7RK2+/dnLyhq335P4zWhrrwdvmQWrl6rwzoUyuI53YxQVhacwI6ep/1KrGfLBOiBl93iozdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\ApiFaceID\\FaceID.Data\\FaceID.Data.csproj",
+  "projectFilePath": "C:\\Users\\Администратор\\Documents\\GitHub\\FaceID\\FaceID.Data\\FaceID.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Администратор\\.nuget\\packages\\dlibdotnet.cuda110\\19.21.0.20210302\\dlibdotnet.cuda110.19.21.0.20210302.nupkg.sha512",
     "C:\\Users\\Администратор\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

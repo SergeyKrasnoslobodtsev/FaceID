@@ -1,0 +1,10 @@
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\bin\Debug\netcoreapp3.1\FaceID.Recognizer.deps.json
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\bin\Debug\netcoreapp3.1\FaceID.Recognizer.dll
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\bin\Debug\netcoreapp3.1\FaceID.Recognizer.pdb
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\obj\Debug\netcoreapp3.1\FaceID.Recognizer.csproj.AssemblyReference.cache
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\obj\Debug\netcoreapp3.1\FaceID.Recognizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\obj\Debug\netcoreapp3.1\FaceID.Recognizer.AssemblyInfoInputs.cache
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\obj\Debug\netcoreapp3.1\FaceID.Recognizer.AssemblyInfo.cs
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\obj\Debug\netcoreapp3.1\FaceID.Recognizer.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\obj\Debug\netcoreapp3.1\FaceID.Recognizer.dll
+C:\Users\Администратор\Documents\GitHub\FaceID\FaceID.Recognizer\obj\Debug\netcoreapp3.1\FaceID.Recognizer.pdb

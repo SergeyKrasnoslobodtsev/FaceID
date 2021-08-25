@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Администратор\Documents\GitHub\ApiFaceID\ModuleCameraDevices\obj\Debug\netcoreapp3.1\
+C:\Users\Администратор\Documents\GitHub\FaceID\ModuleCameraDevices\obj\Debug\netcoreapp3.1\
 ModuleCameraDevices
 none
 false
@@ -12,8 +12,8 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 
 2-1049014288
 
-8-1432874901
-1971913807791
+7788029398
+2001894166087
 Controls\Camera.xaml;Views\CollectionCamera.xaml;
 
 False

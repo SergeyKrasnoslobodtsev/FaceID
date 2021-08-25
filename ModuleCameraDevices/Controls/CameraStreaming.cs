@@ -1,9 +1,6 @@
-﻿using Emgu.CV;
-using Emgu.CV.Cuda;
-using Emgu.CV.Structure;
-using ModuleCameraDevices.Extensions;
+﻿
+using OpenCvSharp;
 using System;
-using System.Drawing;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
@@ -50,7 +47,7 @@ namespace ModuleCameraDevices.Controls
 
                     var videoCapture = new VideoCapture(_connection);
 
-                    if (!videoCapture.IsOpened)
+                    if (!videoCapture.IsOpened())
                     {
                         throw new ApplicationException("Нет соединения с ip камерой");
                     }
@@ -60,38 +57,22 @@ namespace ModuleCameraDevices.Controls
                         while (!_cancellationTokenSource.IsCancellationRequested)
                         {
                             videoCapture.Read(frame);
-                            GpuMat cudaMat = new GpuMat();
-                            cudaMat.Upload(frame);
-                            CudaInvoke.Resize(cudaMat, cudaMat, new Size(_frameWidth, _frameHeight));
-                            cudaMat.Download(frame);
-                           
-                            using(var cascade = new CascadeClassifier(path + "haarcascade_frontalface_alt2.xml"))
-                            using(var grayMat = new Mat())
-                            {
-                                CvInvoke.CvtColor(frame, grayMat, Emgu.CV.CvEnum.ColorConversion.Bgr2Gray);
 
-                                var rects = cascade.DetectMultiScale(grayMat, 1.3, 4, new Size(20,20));
-                                foreach (var rect in rects)
-                                    CvInvoke.Rectangle(frame, rect, new MCvScalar(255, 0, 0));
-                            }
-                                
-                            
-
-
-
-
+                            Cv2.Resize(frame, frame, new Size(_frameWidth, _frameHeight), 0, 0, InterpolationFlags.Linear);
+                            var rects = Task.Run(async () => await DetectorAsync(frame));
+                            foreach (var rect in await rects)
+                                Cv2.Rectangle(frame, rect, Scalar.Red);
 
                             //var buffer = new VectorOfByte();
                             //CvInvoke.Imencode(".jpg", frame, buffer);  //Must use .jpg not jpg
                             //byte[] jpgBytes = buffer.ToArray();
 
 
-                            if (!frame.IsEmpty)
+                            if (!frame.Empty())
                             {
                                 if (initializationSemaphore != null)
                                     initializationSemaphore.Release();
-                                _lastFrame = BitmapExtension.ToBitmap(frame);
-                                var lastFrameBitmapImage = BitmapExtension.ToBitmapSource(_lastFrame);
+                                var lastFrameBitmapImage = OpenCvSharp.WpfExtensions.BitmapSourceConverter.ToBitmapSource(frame);
                                 lastFrameBitmapImage.Freeze();
                                 _imageControlForRendering.Dispatcher.Invoke(() => _imageControlForRendering.Source = lastFrameBitmapImage);
                             }
@@ -119,7 +100,19 @@ namespace ModuleCameraDevices.Controls
             }
         }
 
+        private Task<Rect[]> DetectorAsync(Mat frame)
+        {
+            return Task.Run(() =>
+            {
+                using (var cascade = new CascadeClassifier(path + "haarcascade_frontalface_alt2.xml"))
+                using (var grayMat = new Mat())
+                {
+                    Cv2.CvtColor(frame, grayMat, ColorConversionCodes.BGR2GRAY);
 
+                    return cascade.DetectMultiScale(grayMat, 1.6, 5, HaarDetectionTypes.ScaleImage, new Size(80,80));
+                }
+            });
+        }
         public async Task Stop()
         {
             if (_cancellationTokenSource.IsCancellationRequested)
